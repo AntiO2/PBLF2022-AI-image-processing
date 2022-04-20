@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(VideoTest)
+find_package(OpenCV REQUIRED)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
+add_executable(VideoTest Video_test.cpp)
+target_link_libraries(VideoTest LINK_PRIVATE ${OpenCV_LIBS})
