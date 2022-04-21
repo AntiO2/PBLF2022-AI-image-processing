@@ -12,7 +12,7 @@ PBLF2022人工智能图像处理
 直接使用`.\work.sh`
 
 
-## 一些基本的CMake教学
+## 一些基本的CMake
 - cmake_minimum_required(VERSION 2.8)指定了cmake的最低版本号为2.8。
 - project(ImageTest)指定了工程名为ImageTest。
 - find_package(OpenCV REQUIRED)快速引入文件依赖模块。
